@@ -24,6 +24,9 @@ while (arr.length != 1) {
   arr.push(min1 + min2);
 }
 
+	document.getElementById('result').innerHTML = ans;
+
+}
 
 
 function getMinIndex(arr) {
@@ -48,8 +51,6 @@ function getMinIndex(arr) {
 
 	
 
-	document.getElementById('result').innerHTML = ans;
 	
-  
-  
-}  
+	
+    
